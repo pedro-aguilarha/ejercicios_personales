@@ -581,9 +581,6 @@ def PresupuestoCMateriales():
             input("¡¡¡OPCION INVALIDA!!!\tINGRESE UNA OPCION VALIDA")
 
 
-def PresupuestoManoObraDirecta():
-    pass
+
 Main()
 
-#PENDIENTES
-#CORREGIR EL PUNTO 2
