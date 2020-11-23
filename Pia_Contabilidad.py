@@ -42,8 +42,7 @@ def Main():
         os.system("cls")
         print("== SISTEMA DE CONTABILIDAD FACPYA ==\n")
         print("-"*40)
-        print("1.Ventas\n2.Flujo de Entradas\n3.Produccion\n4.Requerimiento de Materiales\n5.Compra de Materiales\n6.Flujo de Salidas")
-        print("7.Mano de Obra Directa\n8.Gastos Indirectos de Fabricación\n9.Gastos de Operacion\n10.Costo Unitario de Productos Terminados\n11.Valucacion de Inventarios Finales\n12.Salir del Sistema")
+        print("1.Ventas\n2.Flujo de Entradas\n3.Produccion\n4.Requerimiento de Materiales\n5.Compra de Materiales\n6.Flujo de Salidas\n7.SALIR DEL SISTEMA")
         print("-"*40)
         opcion= input("ingresa la opcion deseada: ")
 
@@ -147,8 +146,6 @@ def Main():
                 else:
                     input("¡¡¡OPCION INVALIDA!!!\tINGRESE UNA OPCION VALIDA")
         elif opcion=="7":
-            PresupuestoManoObraDirecta()
-        elif opcion=="12":
             break
         else:
             input("¡¡¡OPCION INVALIDA!!!\tINGRESE UNA OPCION VALIDA")
